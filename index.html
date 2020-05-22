@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel=stylesheet href=style.css>
+    <meta name="viewport" content="width=device-width"> 
+</head>
+<body>
+    <header id="hd">
+        <div class="logo"></div>
+        <h1>
+            Musical Studio          
+        </h1>
+    </header>
+    <main>
+        <nav>
+           <button id="main_btn">Press me!</button>
+            <ul id="main_menu" class="base_menu">
+                <li>Главная</li>
+                <li><a href="about.html">О нас</a></li>
+                <li>Галерея</li>
+            </ul>
+        </nav>
+        <section>
+            <h2>
+                Записывайтесь к нам на звукозапись!
+            </h2>
+            <div class = "container">
+                <article class="card">
+                    <h3>
+                        Заголовок 1
+                    </h3>
+                    <video controls loop>
+                        <source src="assets/v1.mp4">
+                    </video>
+                </article>
+                <article class="card">
+                    <h3>
+                        Заголовок 2
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula est sed ipsum tristique, id cursus urna cursus. Etiam sodales volutpat elit, sed laoreet est auctor porttitor. Nullam mi mi, cursus in sem a, rhoncus tincidunt justo. Etiam vestibulum ante sit amet velit facilisis, vitae sollicitudin dolor sodales. Donec at tortor blandit, eleifend velit eget, eleifend est. 
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>
+                        Заголовок 3
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula est sed ipsum tristique, id cursus urna cursus. Etiam sodales volutpat elit, sed laoreet est auctor porttitor. Nullam mi mi, cursus in sem a, rhoncus tincidunt justo. Etiam vestibulum ante sit amet velit facilisis, vitae sollicitudin dolor sodales. Donec at tortor blandit, eleifend velit eget, eleifend est. 
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>
+                        Заголовок 4
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula est sed ipsum tristique, id cursus urna cursus. Etiam sodales volutpat elit, sed laoreet est auctor porttitor. Nullam mi mi, cursus in sem a, rhoncus tincidunt justo. Etiam vestibulum ante sit amet velit facilisis, vitae sollicitudin dolor sodales. Donec at tortor blandit, eleifend velit eget, eleifend est. Vivamus quis interdum dui. Nam ultrices ac metus quis lacinia. Curabitur sed nulla vel ipsum finibus imperdiet. Donec ac auctor nulla.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+       <a class="back" href="#hd">TEXT</a>
+        <cite>
+            This Is My Site!
+        </cite>
+    </footer>
+    <script>
+        "use strict"
+        main_btn.addEventListener("click",fOpen)
+        function fOpen() {
+    main_menu.classList.toggle("menu_open")
+    }
+    </script>
+</body>
+</html>
